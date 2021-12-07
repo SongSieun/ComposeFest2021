@@ -15,6 +15,12 @@
             android:name=".MainActivity"
             android:exported="true"
             android:label="@string/app_name"
+            android:theme="@style/Theme.ComposeLayout.NoActionBar" />
+
+        <activity
+            android:name=".ComplexCustomActivity"
+            android:exported="true"
+            android:label="@string/app_name"
             android:theme="@style/Theme.ComposeLayout.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
